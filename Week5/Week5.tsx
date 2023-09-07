@@ -2,7 +2,7 @@ import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import ScannerStack from "./ScannerStack";
 import { FavoritesScreen } from "./FavoritesScreen";
-import { Scanner } from "./BarcodeScanner";
+
 
 
 const Tab = createBottomTabNavigator();

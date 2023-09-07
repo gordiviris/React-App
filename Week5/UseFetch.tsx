@@ -15,20 +15,7 @@ export const useFetch = (url: string) => {
   });
 
   useEffect(() => {
-    // setLoading(true);
-    // setError(undefined);
 
-    // fetch(url)
-    //     .then((response) => response.json())
-    //     .then((data) => {
-    //         setProductData(data);
-    //         setLoading(false);
-    //     })
-    //     .catch((error) => {
-    //         console.error('Error fetching product data', error);
-    //         setError('An Error occurred while fetching product data.');
-    //         setLoading(false);
-    //     });
     axios
       .get(url) // Use axios instead of fetch
       .then((response) => {
