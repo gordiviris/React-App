@@ -1,20 +1,22 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { NavigationContainer } from "@react-navigation/native";
+import { createDrawerNavigator } from "@react-navigation/drawer";
+import Week5 from "./Week5/Week5";
+import Week7 from "./Week7/Week7";
+import Week2 from "./Week2/Week2";
+
+const Drawer = createDrawerNavigator();
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <Drawer.Navigator
+        initialRouteName="Barcode Scanner"
+        screenOptions={{ headerShown: false, drawerPosition: "right" }}
+      >
+        <Drawer.Screen name="Photo Gallery" component={Week2}/>
+        <Drawer.Screen name="Barcode Scanner" component={Week5}/>
+        <Drawer.Screen name="Week7" component={Week7}/>
+      </Drawer.Navigator>
+    </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
