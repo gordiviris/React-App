@@ -10,7 +10,7 @@ import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 type ScannerNavigationProp = NativeStackNavigationProp<StackParamList, 'Scanner'>;
 
 export function Scanner() {
-  const [hasPermission, setHasPermission] = useState(null);
+  const [hasPermission, setHasPermission] = useState<boolean | null>(null);
   const [scanned, setScanned] = useState(false);
   const navigation = useNavigation<ScannerNavigationProp>();
 

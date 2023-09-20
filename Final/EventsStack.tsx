@@ -1,6 +1,6 @@
 import { createStackNavigator } from "@react-navigation/stack";
-import { EventsList } from "./EventsList";
-import { EventDetail } from "./EventDetails";
+import EventsList from "./EventsList";
+import EventDetails from "./EventDetails";
 
 export type StackParamList = {
   EventsList: undefined;
@@ -20,7 +20,7 @@ export function EventsStack() {
       />
       <Stack.Screen
         name="EventDetails"
-        component={EventDetail}
+        component={EventDetails}
         options={{ headerShown: false }}
       />
     </Stack.Navigator>

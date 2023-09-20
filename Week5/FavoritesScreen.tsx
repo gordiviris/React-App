@@ -11,6 +11,7 @@ import { useFocusEffect, useNavigation, RouteProp, useRoute} from "@react-naviga
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { StackParamList } from "./ScannerStack";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 
 type FavoriteItem = {
