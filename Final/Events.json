@@ -1,0 +1,37 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Rockin' Concert",
+      "category": "Concert",
+      "date": "2023-10-15",
+      "time": "19:00",
+      "venue": "Gillette Stadium",
+      "address": "1 Patriot Pl, Foxborough, MA 02035",
+      "description": "Join us for a night of rock music featuring top bands from around the world.",
+      "image": "images/rock_concert.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Summer Beach Party",
+      "category": "Party",
+      "date": "2023-07-22",
+      "time": "15:00",
+      "venue": "Sunny Beach",
+      "address": "456 Seaside Boulevard, Beachtown",
+      "description": "Dance, enjoy cocktails, and soak up the sun at the biggest beach party of the year.",
+      "image": "images/beach_party.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Jazz Night Under the Stars",
+      "category": "Concert",
+      "date": "2023-09-30",
+      "time": "20:30",
+      "venue": "Open-Air Amphitheater",
+      "address": "789 Jazz Avenue, Grovetown",
+      "description": "An enchanting evening of jazz music beneath the starry sky.",
+      "image": "images/jazz_night.jpg"
+    }
+  ]
+}
