@@ -11,7 +11,7 @@ import { useFocusEffect, useNavigation, RouteProp, useRoute} from "@react-naviga
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { StackParamList } from "./ScannerStack";
-import { useFetch } from "./UseFetch";
+
 
 type FavoriteItem = {
   url: string;
